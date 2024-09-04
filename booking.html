@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt phòng</title>
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <i class="bx bx-menu sidebarOpen"></i>
+                <img class="logo" src="Images/Miscellaneous/Logo.png" width="160" height="90" alt="Zelis - home">
+
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <img class="logo" src="Images/Miscellaneous/Logo.png" width="160" height="90" alt="Zelis - home"> 
+                        <i class="bx bx-x sidebarClose"></i>
+                    </div>
+
+                    <ul class="nav-links">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="index.html">Giới Thiệu</a></li>
+                        <li><a href="index.html">Dịch Vụ</a></li>
+                        <li><a href="index.html">Chỗ Ở</a></li>
+                        <li><a href="#footer">Liên Hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="sign-in">
+                    <a class="sign-in-btn" href="signIn.html">
+                        <span class="sign-in-text1">
+                            Đăng nhập
+                        </span>
+                        <span class="sign-in-text2">
+                            Đăng nhập
+                        </span>
+                    </a>
+                    
+                    
+
+                    <img src="Images/Miscellaneous/ScreenShot1.png" width="40" height="40" alt="">
+                </div>
+            </div>      
+        </nav>
+
+        
+    </header>
+
+
+    
+    <!-- MAIN -->
+    <main>
+        <section>
+            <div class="information">
+                <div class="location-info">
+                    <img src="Images/Thumbnails/Thumb1.jpeg" alt="item">
+                    <div class="location-description">
+                        <h2>The Burrow Dalat</h2>
+                        <h3>Đà Lạt</h3>
+                        <p>2 tầng, 1 phòng khách, 3 phòng ngủ</p>
+                    </div>
+                    <div class="date">      
+                            <span><i class='bx bx-calendar'></i> Ngày nhận phòng</span>
+                            <input id="check-in-date" type="date">
+                                 
+                            <span><i class='bx bx-calendar'></i> Ngày trả phòng</span>
+                            <input id="check-out-date" type="date">
+                    </div>
+                </div>
+    
+                <div class="payment">
+                    <h2>Chọn phương thức thanh toán</h2>
+                    <select id="payment-method">
+                        <option>Visa Card</option>
+                        <option>Master Card</option>
+                        <option>PayPal</option>
+                    </select>
+                    <div class="icon">
+                        <i class='bx bxl-paypal' ></i>
+                        <i class='bx bxl-visa' ></i>
+                        <i class='bx bxl-mastercard' ></i>
+                    </div>
+                </div>
+    
+            </div>
+            
+            
+            <div class="bill">
+                <div class="bill-list">
+                    <div>
+                        <p>Giá cơ bản</p>
+                        <p><span class="price">2.200.000</span> VND</p>
+                    </div>
+                    <div>
+                        <p>Giá dịch vụ</p>
+                        <p><span class="price">300.000</span> VND</p>
+                    </div>
+                    <div>
+                        <p>Thuế</p>
+                        <p><span class="price">200.000</span> VND</p>
+                    </div>
+                    <div>
+                        <p>Giảm giá</p>
+                        <p><span class="discount">300.000</span> VND</p>
+                    </div>
+                </div>
+    
+                <div class="total">
+                    <p>Tổng cộng</p>
+                    <p class="total-price"></p>
+                </div>
+    
+                <button class="bookBtn">
+                    Thanh toán
+                </button>
+            </div>
+        </section>
+        
+    
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div>
+                <img src="Images/Miscellaneous/Logo.png" width="150px" height="90px" alt="">
+            </div>
+
+            <div>
+                <h2>Liên hệ</h2>
+                <ul>
+                    <li><i class='bx bxl-facebook'></i> Facebook</li>
+                    <li><i class='bx bxl-instagram'></i> Instagram</li>
+                    <li><i class='bx bxl-twitter'></i> Twitter</li>
+                    <li><i class='bx bxl-linkedin'></i> Linkedin</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Trợ giúp</h2>
+                <ul>
+                    <li>Chính sách</li>
+                    <li>Điều kiện</li>
+                    <li>Blogs</li>
+                    <li>Câu hỏi thường gặp</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p class="copyright">
+            © 2024 ZelisHomestay. All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="javascript/main.js"></script>
+    <script src="javascript/booking.js"></script>
+</body>
+</html>

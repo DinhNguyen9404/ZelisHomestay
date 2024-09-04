@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/signIn.css">
+    <link rel="stylesheet" href="style/home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Sign In</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <i class="bx bx-menu sidebarOpen"></i>
+                <img class="logo" src="Images/Miscellaneous/Logo.png" width="160" height="90" alt="Zelis - home">
+
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <img class="logo" src="Images/Miscellaneous/Logo.png" width="160" height="90" alt="Zelis - home"> 
+                        <i class="bx bx-x sidebarClose"></i>
+                    </div>
+
+                    <ul class="nav-links">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="index.html">Giới Thiệu</a></li>
+                        <li><a href="index.html">Dịch Vụ</a></li>
+                        <li><a href="index.html">Chỗ Ở</a></li>
+                        <li><a href="#footer">Liên Hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="sign-in">
+                    <a class="sign-in-btn" href="signIn.html">
+                        <span class="sign-in-text1">
+                            Đăng nhập
+                        </span>
+                        <span class="sign-in-text2">
+                            Đăng nhập
+                        </span>
+                    </a>
+                    
+                    
+
+                    <img src="Images/Miscellaneous/ScreenShot1.png" width="40" height="40" alt="">
+                </div>
+            </div>      
+        </nav>
+
+        
+    </header>
+    <main>
+        <div class="container" id="container">
+            <div class="form-container sign-in">
+                <div class="front">
+                    <img src="Images/Thumbnails/Thumb5.jpeg" alt="">
+                </div>
+                <div class="back"> 
+                    <form>
+                        <h1>Đăng nhập</h1>
+                        <div class="social-icons">
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <span>hoặc sủ dụng mật khẩu email</span>
+                        <input type="text" placeholder="Email">
+                        <a href="#">Quên mật khẩu?</a>
+                        <input type="password" placeholder="Password">
+                        <button>Đăng nhập</button>
+                    </form>
+                </div>
+            </div>
+            <div class="form-container sign-up">
+                <div class="front">
+                    <form>
+                        <h1>Tạo tài khoản</h1>
+                        <div class="social-icons">
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <span>hoặc sử dụng email của bạn để đăng ký</span>
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button>Đăng ký</button>
+                    </form>
+                </div>
+                <div class="back">
+                    <img src="Images/Thumbnails/Thumb6.jpeg" alt="">
+                </div>
+            </div>
+            
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Chào mừng quay lại!</h1>
+                        <p>Đăng nhập để sử dụng các tính năng của trang web
+                        </p>
+                        <button class="hidden" id="login">Đăng nhập</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Xin Chào!</h1>
+                        <p>Đăng ký với thông tin cá nhân để sử dụng các tính năng của trang web
+                        </p>
+                        <button class="hidden" id="register">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div>
+                <img src="Images/Miscellaneous/Logo.png" width="150px" height="90px" alt="">
+            </div>
+
+            <div>
+                <h2>Liên hệ</h2>
+                <ul>
+                    <li><i class='bx bxl-facebook'></i> Facebook</li>
+                    <li><i class='bx bxl-instagram'></i> Instagram</li>
+                    <li><i class='bx bxl-twitter'></i> Twitter</li>
+                    <li><i class='bx bxl-linkedin'></i> Linkedin</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Trợ giúp</h2>
+                <ul>
+                    <li>Chính sách</li>
+                    <li>Điều kiện</li>
+                    <li>Blogs</li>
+                    <li>Câu hỏi thường gặp</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p class="copyright">
+            © 2024 ZelisHomestay. All Rights Reserved
+        </p>
+
+    </footer>
+    
+    <script src="javascript/signIn.js"></script>
+</body>
+</html>

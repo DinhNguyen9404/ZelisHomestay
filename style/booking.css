@@ -1,0 +1,151 @@
+section{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.information{
+    width: 50%;
+}
+
+.information img{
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.location-description{
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+
+.date{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.payment h2{
+    margin-bottom: 10px;
+}
+
+#payment-method{
+    font-size: 1.3rem;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    font-size: 3rem;
+}
+
+.bxl-paypal{
+    color: blue;
+}
+
+.bxl-visa{
+    color: red;
+}
+
+.bxl-mastercard{
+    color: gold;
+}
+
+.bill{
+    width: 30%;
+}
+
+.bill-list{
+    padding: 30px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.bill-list > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    font-weight: 600; 
+}
+
+.bill-list > div .price{
+    color: rgb(29, 189, 29);
+}
+
+.discount{
+    color: red;
+}
+
+.total{
+    padding: 20px;
+    border-top: 2px solid gray;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price{
+    color: rgb(15, 190, 97);
+}
+
+.bookBtn{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.bookBtn:hover{
+    border: 2px solid green;
+    background-color: rgb(171, 186, 191);
+    color: green;
+}
+
+@media screen and (max-width: 1300px) {
+    section{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .information{
+        width: 100%;
+    }
+
+    .information img{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .date{
+        width: 60%;
+        flex-direction: column;
+        height: 180px;
+        font-size: 1.2rem;
+    }
+
+    .bill{
+        margin-top: 60px;
+        width: 100%;
+    }
+}
+
+footer{
+    margin-top: 100px !important;
+}

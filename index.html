@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zelis Homestay</title>
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <i class="bx bx-menu sidebarOpen"></i>
+                <img class="logo" src="Images/Miscellaneous/Logo.png" width="160" height="90" alt="Zelis - home">
+
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <img class="logo" src="Images/Miscellaneous/Logo.png" width="160" height="90" alt="Zelis - home"> 
+                        <i class="bx bx-x sidebarClose"></i>
+                    </div>
+
+                    <ul class="nav-links">
+                        <li><a href="#home">Trang Chủ</a></li>
+                        <li><a href="#trending">Giới Thiệu</a></li>
+                        <li><a href="#about-us">Dịch Vụ</a></li>
+                        <li><a href="#menu-slide">Chỗ Ở</a></li>
+                        <li><a href="#footer">Liên Hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="sign-in">
+                    <a class="sign-in-btn" href="signIn.html">
+                        <span class="sign-in-text1">
+                            Đăng nhập
+                        </span>
+                        <span class="sign-in-text2">
+                            Đăng nhập
+                        </span>
+                    </a>
+                    
+                    
+
+                    <img src="Images/Miscellaneous/ScreenShot1.png" width="40" height="40" alt="">
+                </div>
+            </div>      
+        </nav>
+
+        
+    </header>
+
+
+    
+    <!-- MAIN -->
+    <main>
+
+        <!-- WELCOME SECTION -->
+        <section id="home" class="welcome">
+            <div class="welcome-background">
+                <img src="Images/Thumbnails/ThumbMain.avif">
+            </div>
+            
+            <div class="welcome-input">
+                <div class="welcome-title">Khám phá và tận hưởng chuyến đi của bạn</div>
+                <div class="welcome-input-form">
+                    <div class="location">
+                        <i class='bx bxs-map' ></i>
+                        <input type="search" placeholder="Nhập địa điểm bạn cần tìm">
+                    </div>
+                    <div class="check-in">                      
+                        <span><i class='bx bx-calendar'></i> Ngày nhận phòng</span>
+                        <input type="date">
+                    </div>
+                    <div class="check-out">                    
+                        <span><i class='bx bx-calendar'></i> Ngày trả phòng</span>
+                        <input type="date">
+                    </div>
+                    <div class="guests">
+                        <span><i class='bx bx-body' ></i> Số lượng</span>
+                        <select>
+                            <option selected="selected" value="1">1</option><option value="6">6</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                        </select>
+                    </div>
+                    
+                    <button class="searchBtn">
+                        <i class='bx bx-search-alt-2' ></i>
+                        <span>Tìm kiếm</span>
+                    </button>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- TRENDING LOCATIONS -->
+        <section class="trending" id="trending">
+            <h2>Các địa điểm nổi tiếng</h2>
+            <button class="trending-next"><i class='bx bx-right-arrow-alt'></i></button>
+            <button class="trending-prev"><i class='bx bx-left-arrow-alt' ></i></button>
+            <div class="trending-container">
+                
+                <div class="trending-location-item">
+                    <div class="trending-location">
+                        <a href="detail.html">
+                            <img src="Images/Thumbnails/Thumb1.webp" alt="">
+                            <div class="trending-location-description">
+                                <h3>Đà Lạt</h3>
+                                <h2>Dalat Teepee Homestay</h2>
+                                <div class="rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <span>5/5</span>
+                                </div>
+            
+                                <div class="price">
+                                    <h2>Giá trung bình từ <span>492.000 VNĐ </span> /đêm</h2>
+                                </div>
+        
+                                <ul class="location-amenity">
+                                    <li>Wifi miễn phí</li>
+                                    <li>Nơi đỗ xe</li>
+                                    <li>Xe đưa đón</li>
+                                </ul>
+                            </div>
+                        </a>
+                        
+                    </div>              
+                </div>
+    
+                <div class="trending-location-item">
+                    <div class="trending-location">
+                        <a href="detail.html">
+                            <img src="Images/Thumbnails/Thumb2.webp" alt="">
+                            <div class="trending-location-description">
+                                <h3>Đà Lạt</h3>
+                                <h2>LengKeng Homestay Dalat</h2>
+                                <div class="rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <span>5/5</span>
+                                </div>
+            
+                                <div class="price">
+                                    <h2>Giá trung bình từ <span>792.000 VNĐ </span> /đêm</h2>
+                                </div>
+        
+                                <ul class="location-amenity">
+                                    <li>Wifi miễn phí</li>
+                                    <li>Nơi đỗ xe</li>
+                                    <li>Dịch vụ giải trí</li>
+                                </ul>
+                            </div>
+                        </a>
+                        
+                    </div>              
+                </div>
+    
+                <div class="trending-location-item">
+                    <div class="trending-location">
+                        <a href="detail.html">
+                            <img src="Images/Thumbnails/Thumb3.jpeg" alt="">
+                            <div class="trending-location-description">
+                                <h3>TP HCM</h3>
+                                <h2>Amazing Merit Bến Thành</h2>
+                                <div class="rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <span>5/5</span>
+                                </div>
+            
+                                <div class="price">
+                                    <h2>Giá trung bình từ <span>1.292.000 VNĐ </span> /đêm</h2>
+                                </div>
+        
+                                <ul class="location-amenity">
+                                    <li>Wifi miễn phí</li>
+                                    <li>Nơi đỗ xe</li>
+                                    <li>Dịch vụ giải trí</li>
+                                </ul>
+                            </div>
+                        </a>
+                        
+                    </div>              
+                </div>
+    
+                <div class="trending-location-item">
+                    <div class="trending-location">
+                        <a href="detail.html">
+                            <img src="Images/Thumbnails/Thumb4.webp" alt="">
+                            <div class="trending-location-description">
+                                <h3>Đà Lạt</h3>
+                                <h2>Attic Homestay</h2>
+                                <div class="rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <span>5/5</span>
+                                </div>
+            
+                                <div class="price">
+                                    <h2>Giá trung bình từ <span>1.192.000 VNĐ </span> /đêm</h2>
+                                </div>
+        
+                                <ul class="location-amenity">
+                                    <li>Wifi miễn phí</li>
+                                    <li>Nơi đỗ xe</li>
+                                    <li>Dịch vụ giải trí</li>
+                                </ul>
+                            </div>
+                        </a>
+                        
+                    </div>              
+                </div>
+    
+                <div class="trending-location-item">
+                    <div class="trending-location">
+                        <a href="detail.html">
+                            <img src="Images/Thumbnails/Thumb5.jpeg" alt="">
+                            <div class="trending-location-description">
+                                <h3>TP HCM</h3>
+                                <h2>HCM Homestay</h2>
+                                <div class="rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <span>5/5</span>
+                                </div>
+            
+                                <div class="price">
+                                    <h2>Giá trung bình từ <span>992.000 VNĐ </span> /đêm</h2>
+                                </div>
+        
+                                <ul class="location-amenity">
+                                    <li>Wifi miễn phí</li>
+                                    <li>Nơi đỗ xe</li>
+                                    <li>Dịch vụ giải trí</li>
+                                </ul>
+                            </div>
+                        </a>
+                        
+                    </div>              
+                </div>
+    
+                <div class="trending-location-item">
+                    <div class="trending-location">
+                        <a href="detail.html">
+                            <img src="Images/Thumbnails/Thumb8.webp" alt="">
+                            <div class="trending-location-description">
+                                <h3>Nha Trang</h3>
+                                <h2>Royal Homestay</h2>
+                                <div class="rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <span>5/5</span>
+                                </div>
+            
+                                <div class="price">
+                                    <h2>Giá trung bình từ <span>1.002.000 VNĐ </span> /đêm</h2>
+                                </div>
+        
+                                <ul class="location-amenity">
+                                    <li>Wifi miễn phí</li>
+                                    <li>Nơi đỗ xe</li>
+                                    <li>Dịch vụ giải trí</li>
+                                </ul>
+                            </div>
+                        </a>
+                        
+                    </div>              
+                </div>
+            </div>
+            
+            
+        </section>
+
+        <!-- MENU SLIDE -->
+         
+        <section id="menu-slide" class="menu-slide">
+            <div class="menu-filter">
+                <div class="menu-button">
+                    <button class="filterBtn"><i class='bx bx-filter'></i> Bộ lọc</button>
+                    <button class="filterSearchBtn"><i class='bx bx-search-alt'></i>Tìm kiếm</button>
+                </div>
+                
+                <div class="filter-box">
+                    <div class="price-range">
+                        <h3>Khoảng giá</h3>
+                        <div class="price-content">
+                            <p id="min-value">0 VNĐ</p>
+                            <p id="max-value">5000000 VNĐ</p>
+                        </div>
+    
+                        <div class="price-slider">
+                            <div class="range-fill"></div>
+    
+                            <input type="range" class="min-price"
+                            value="500000" min="0" max="5000000" step="100000">
+                            <input type="range" class="max-price"
+                            value="1000000" min="0" max="5000000" step="100000">
+                        </div>
+                    </div>
+                    
+                    <div class="rating">
+                        <h3>Đánh giá sao</h3>
+                        <ul class="rating-checkbox">
+                            <li><input value="1" id="1" type="checkbox"> 1 <i class='bx bxs-star'></i></li>
+                            <li><input value="2" id="2" type="checkbox"> 2 <i class='bx bxs-star'></i></li>
+                            <li><input value="3" id="3" type="checkbox"> 3 <i class='bx bxs-star'></i></li>
+                            <li><input value="4" id="4" type="checkbox"> 4 <i class='bx bxs-star'></i></li>
+                            <li><input value="5" id="5" type="checkbox"> 5 <i class='bx bxs-star'></i></li>
+                        </ul>
+                    </div>
+    
+                    <div class="amenity">
+                        <h3>TIện ích</h3>
+                        <ul class="amenity-checkbox">
+                            <li><input type="checkbox"> Nơi đỗ xe</li>
+                            <li><input type="checkbox"> Wifi miễn phí</li>
+                            <li><input type="checkbox"> Điều hòa</li>
+                            <li><input type="checkbox"> Hồ bơi</li>
+                            <li><input type="checkbox"> Phòng khách</li>
+                            <li><input type="checkbox"> Khu vực giải trí</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="menu-options">
+                <div class="menu-item">
+                        <a href="detail.html">
+                            <img src="Images/Thumbnails/Thumb7.webp" alt="">
+                        </a>  
+                        <div class="menu-item-description">
+                            <h3>Đà Lạt</h3>
+                            <h2>Dalat Teepee Homestay</h2>
+                            <div class="rate">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bx-star'></i>
+                                <span>4/5</span>
+                            </div>
+        
+                            <div class="price">
+                                <h2>Giá trung bình từ <span>3.000.000 VNĐ </span> /đêm</h2>
+                            </div>
+                        </div>         
+                </div>
+
+                <div class="menu-item">
+                    <a href="detail.html">
+                        <img src="Images/Thumbnails/Thumb10.webp" alt="">
+                    </a>  
+                    <div class="menu-item-description">
+                        <h3>Đà Lạt</h3>
+                        <h2>Orimi Cafe & Homie Dalat</h2>
+                        <div class="rate">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                            <span>4.5/5</span>
+                        </div>
+    
+                        <div class="price">
+                            <h2>Giá trung bình từ <span>1.112.000 VNĐ </span> /đêm</h2>
+                        </div>
+                    </div>         
+                </div>
+
+                <div class="menu-item">
+                    <a href="detail.html">
+                        <img src="Images/Thumbnails/Thumb3.jpg" alt="">
+                    </a>  
+                    <div class="menu-item-description">
+                        <h3>TP HCM</h3>
+                        <h2>Marki Home Saigon</h2>
+                        <div class="rate">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star' ></i>
+                            <i class='bx bx-star' ></i>
+                            <span>3/5</span>
+                        </div>
+
+                        <div class="price">
+                            <h2>Giá trung bình từ <span>2.792.000 VNĐ </span> /đêm</h2>
+                        </div>
+                    </div>         
+                </div>
+
+                <div class="menu-item">
+                    <a href="detail.html">
+                        <img src="Images/Thumbnails/Thumb9.webp" alt="">
+                    </a>  
+                    <div class="menu-item-description">
+                        <h3>Đà Lạt</h3>
+                        <h2>Dalat Teepee Homestay</h2>
+                        <div class="rate">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <span>5/5</span>
+                        </div>
+
+                        <div class="price">
+                            <h2>Giá trung bình từ <span>792.000 VNĐ </span> /đêm</h2>
+                        </div>
+                    </div>         
+                </div>
+
+                <div class="menu-item">
+                    <a href="detail.html">
+                        <img src="Images/Thumbnails/Thumb10.jpg" alt="">
+                    </a>  
+                    <div class="menu-item-description">
+                        <h3>TP HCM</h3>
+                        <h2>Hello SaiGon Homestay</h2>
+                        <div class="rate">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <span>5/5</span>
+                        </div>
+
+                        <div class="price">
+                            <h2>Giá trung bình từ <span>4.000.000 VNĐ</span> /đêm</h2>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT US -->
+        <section id="about-us" class="about-us">
+            <div class="about-container">
+                <div class="about-item">
+                    <i class='bx bx-money' ></i>
+                    <div class="about-description">
+                        <span>Giá trị chân thành</span>
+                        <p>Chúng tôi không chỉ đưa ra giá cả tuyệt vời và các giao dịch chỗ ở lâu dài tốt, 
+                            mà còn mang đến giá trị thực sự cho bạn bằng cách cung cấp những trải nghiệm chân thực quý giá.</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <i class='bx bx-home-heart' ></i>
+                    <div class="about-description">
+                        <span>Ngôi nhà thực sự</span>
+                        <p>Chúng tôi luôn cung cấp phòng ở những ngôi nhà thật với chủ nhà địa phương. Chỗ ở của chúng tôi 
+                            thì khác biệt vì bạn sẽ ở cùng người dân địa phương và trở thành một phần của cộng đồng nơi đây.</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <i class='bx bx-universal-access' ></i>
+                    <div class="about-description">
+                        <span>Du lịch bền vững</span>
+                        <p>Chúng tôi thúc đẩy du lịch địa phương bền vững bằng cách đảm bảo rằng 
+                            chi tiêu của bạn ở lại trong cộng đồng địa phương, giảm thiểu tác động đến môi trường.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMMOMLY ASKED QUESTIONS -->
+        <section class="faqs">
+            <h2>Câu hỏi thường gặp</h2>
+            <div class="faqs__container">
+                <div class="faq">
+                    <div class="faq__icon"><i class='bx bx-plus' ></i></div>
+                    <div class="question__answer">
+                        <h4>Làm sao để tìm homestay phù hợp với nhu cầu của tôi?</h4>
+                        <p>
+                            Hãy sử dụng bộ lọc tìm kiếm theo vị trí, giá cả, tiện nghi, loại hình homestay theo sở thích của bản thân.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="faq">
+                    <div class="faq__icon"><i class='bx bx-plus' ></i></div>
+                    <div class="question__answer">
+                        <h4>Làm sao để biết homestay có uy tín không?</h4>
+                        <p>
+                            Hãy đọc đánh giá của khách hàng trước, xem hình ảnh và video thực tế, kiểm tra thông tin liên lạc của chủ homestay
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="faq__icon"><i class='bx bx-plus' ></i></div>
+                    <div class="question__answer">
+                        <h4>Làm sao để đặt homestay?</h4>
+                        <p>
+                            Chọn homestay -> điền thông tin đặt phòng -> thanh toán trực tuyến.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="faq__icon"><i class='bx bx-plus' ></i></div>
+                    <div class="question__answer">
+                        <h4>Tôi có thể hủy đặt phòng không?</h4>
+                        <p>
+                            Chính sách hủy phòng của mỗi homestay có thể khác nhau, nên kiểm tra kỹ trước khi đặt phòng.
+                            Với dịch vụ của chúng tôi thì sẽ có thể hủy đặt trong 1 thời gian quy định trước khi phải mất một số cước phí. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="faq__icon"><i class='bx bx-plus' ></i></div>
+                    <div class="question__answer">
+                        <h4>Tôi có thể thanh toán bằng cách nào?</h4>
+                        <p>
+                            Có thể thanh toán trực tuyến bằng thẻ tín dụng, thanh toán khi nhận phòng.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="faq__icon"><i class='bx bx-plus' ></i></div>
+                    <div class="question__answer">
+                        <h4>Tôi có thể sử dụng những tiện nghi nào trong homestay?</h4>
+                        <p>
+                            Tùy từng dịch vụ và chỗ ở mà bạn sẽ có các tiện nghi như phòng bếp, phòng khách, sân vườn, hồ bơi.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div>
+                <img src="Images/Miscellaneous/Logo.png" width="150px" height="90px" alt="">
+            </div>
+
+            <div>
+                <h2>Liên hệ</h2>
+                <ul>
+                    <li><i class='bx bxl-facebook'></i> Facebook</li>
+                    <li><i class='bx bxl-instagram'></i> Instagram</li>
+                    <li><i class='bx bxl-twitter'></i> Twitter</li>
+                    <li><i class='bx bxl-linkedin'></i> Linkedin</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Trợ giúp</h2>
+                <ul>
+                    <li>Chính sách</li>
+                    <li>Điều kiện</li>
+                    <li>Blogs</li>
+                    <li>Câu hỏi thường gặp</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p class="copyright">
+            © 2024 ZelisHomestay. All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
